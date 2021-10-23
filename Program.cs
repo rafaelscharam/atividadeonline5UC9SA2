@@ -48,6 +48,7 @@ namespace cadastroPessoa
                 {
                     case "1":
 
+                        Console.ResetColor();
                         PessoaFisica pf = new PessoaFisica();
                         PessoaFisica novaPf = new PessoaFisica();
                         Endereco endPf = new Endereco();
@@ -78,7 +79,8 @@ namespace cadastroPessoa
                         break;
 
                     case "2":
-
+                    
+                        Console.ResetColor();
                         PessoaJuridica pj = new PessoaJuridica();
                         PessoaJuridica novaPj = new PessoaJuridica();
                         Endereco endPj = new Endereco();
